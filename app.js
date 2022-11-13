@@ -4,7 +4,7 @@ const port = 3000;
 
 
 app.get('/', (req, res) => {
-  res.send('<h1>Testing CI-CD pipe line with AWS code deploy and Nodejs(express) Thank you!! </h1> <h4>Message: Success</h4> <p>Version 1.4</p>');
+  res.send('<h1>Hi, This is Node App, Thank you!! </h1>');
 })
 
 app.get('/products', (req, res) => {
