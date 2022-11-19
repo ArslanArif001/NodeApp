@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www
+    destination: /home/ubuntu/express-app
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
@@ -17,3 +17,5 @@ hooks:
       timeout: 900
       runas: root
 
+
+      
